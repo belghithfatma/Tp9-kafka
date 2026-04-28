@@ -1,0 +1,50 @@
+{
+  "info": {
+    "_postman_id": "fa222990-a153-45d5-84be-7c65d7a719f8",
+    "name": "tp9",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27511763",
+    "_collection_link": "https://go.postman.co/collection/27511763-fa222990-a153-45d5-84be-7c65d7a719f8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "récupérer les messages",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/messages",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "messages"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "récupérer message par id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/messages/69f12d75366d0824c2e9c052",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "messages",
+            "69f12d75366d0824c2e9c052"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
